@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+  }
+
+.presentation{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    text-align: center;
+}
+
+h1{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 4em;
+    font-family:"Fredoka", sans-serif;
+    font-weight: 500;
+}
+
+body{
+    background-color: #BED3C3;
+
+}
+
+nav{
+    background-color: #4A919E;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.logo{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.photo-3 img{
+    width: 60%;
+    padding: 50px;
+    border-radius:42% 58% 64% 36% / 38% 49% 51% 62%  ;
+}
+
+.photo-2 img{
+    width: 60%;
+    padding: 50px;
+    border-radius: 74% 26% 31% 69% / 65% 69% 31% 35% ;
+}
+
+
+.photo-1 img{
+    width:50%;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+}
+
+.contenu{
+    display: grid;
+    grid-template-columns: 700px 700px;
+
+}
+
+.photo-1{
+    display: flex;
+    justify-content: center;
+    border-radius: 70% 30% 25% 75% / 49% 78% 22% 51% ;
+    
+}
+
+.photo-1, .photo-2, .photo-3{
+    background-color: #4A919E;
+}
+
+.photo-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 24% 76% 76% 24% / 42% 26% 74% 58% ;
+}
+
+.photo-3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 58% 42% 55% 45% / 56% 46% 54% 44% ;
+}
+
+
+h2{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family:"Fredoka", sans-serif;
+    font-weight: 500;
+}
+
+.contenu div p{
+    text-align:center;
+    padding-left:50px;
+    padding-right:50px;
+    font-size: 1.25em;
+    font-family:"Fredoka", sans-serif;
+    font-weight: 400;
+}
+
+.jour-2, .jour-3, .jour-4, .jour-5, .jour-6, .jour-7, .jour-8{
+    margin-top: 50px;
+
+}
+
+.jour-8{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+a{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.petit-mot:hover{
+    opacity: 50%;
+}
+
+.liens{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
+    gap: 100px;
+    align-items: center;
+}
+
+a:hover{
+    opacity: 50%;
+}
+
+footer{
+    background-color: #4A919E;
+    padding-top: 50px;
+    margin-top:50px;
+    height: 200px;
+}
+
+
+
+.petit-mot{
+    display: flex;
+    justify-content: center;
+}
+
+
+.réseaux{
+    display: flex;
+    justify-content: center;
+}
+
+footer img{
+    width: 150px;
+}
+
+.portfolio img{
+    width:300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+
+.grid-photos{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap:20px;
+}
+
+.portfolio{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+main h1{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 4em;
+    font-family:"Fredoka", sans-serif;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 391px) { /*Responsive pour un Iphone 12 pro 390x844*/
+
+    main h1{
+        margin-top: 20px;
+        font-size: 20px;
+        font-family:"Fredoka", sans-serif;
+        font-weight: 500;
+    }
+
+    .presentation{
+        font-size: 15px;
+        margin:20px;
+    }
+
+    nav{
+        background-color: #4A919E;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    .logo{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .liens{
+        display: flex;
+        justify-content: center;
+        margin-right: 0px;
+        gap: 10px;
+        align-items: center;
+    }
+
+    
+    .contenu{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    
+    h2{
+        font-size:20px;
+    }
+    
+    .contenu div p{
+        text-align:center;
+        padding-left:50px;
+        padding-right:50px;
+        font-size: 15px;
+        font-family:"Fredoka", sans-serif;
+        font-weight: 400;
+    }
+    
+    .jour-2, .jour-3, .jour-4, .jour-5, .jour-6, .jour-7, .jour-8{
+        margin-top: 20px;
+    
+    }
+
+    .photo-1, .photo-2, .photo-3{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    footer{
+        background-color: #4A919E;
+        padding-top: 20px;
+        margin-top:20px;
+        height: 100px;
+    }
+    
+    
+    
+    .petit-mot{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .réseaux{
+        display: flex;
+        justify-content: center;
+        background-color: #4A919E;
+    }
+    
+    footer img{
+        width: 75px;
+    }
+
+    .petit-mot a{
+        font-size: 20px;
+    }
+
+    .logo-space{
+        display: flex;
+        justify-content: center;
+    }
+
+    .grid-photos{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .portfolio img{
+        width: 250px;
+    }
+
+    .portfolio{
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+
+}
+
+@media screen and (width:1024px){/*Responsive pour un IPad pro 1024x1366*/
+    
+    main h1{
+        margin-top: 20px;
+        font-size: 35px;
+        font-family:"Fredoka", sans-serif;
+        font-weight: 500;
+    }
+
+    .presentation{
+        font-size: 30px;
+        margin:20px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+    }
+
+    nav{
+        background-color: #4A919E;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 200px;
+    
+    }
+    
+    .logo{
+        width: 15%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .liens{
+        display: flex;
+        justify-content: center;
+        margin-right: 0px;
+        gap: 20px;
+        align-items: center;
+        font-size: 25px;
+    }
+
+    
+    .contenu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    
+    h2{
+        font-size:30px;
+    }
+    
+    .contenu div p{
+        text-align:center;
+        padding-left:50px;
+        padding-right:50px;
+        font-size: 25px;
+        font-family:"Fredoka", sans-serif;
+        font-weight: 400;
+    }
+    
+    .jour-1, .jour-2, .jour-3, .jour-4, .jour-5, .jour-6, .jour-7, .jour-8{
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+    
+    }
+
+    .photo-1, .photo-2, .photo-3{
+        margin-left:20px;
+        margin-right: 20px;
+        width: 50%;
+    }
+
+    footer{
+        background-color: #4A919E;
+        padding-top: 20px;
+        margin-top:40px;
+        height: 100px;
+    }
+    
+    
+    
+    .petit-mot{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    
+    .réseaux{
+        display: flex;
+        justify-content: center;
+        background-color: #4A919E;
+    }
+    
+    footer img{
+        width: 100px;
+        margin-bottom: 20px;
+    }
+
+    .petit-mot a{
+        font-size: 35px;
+    }
+
+    .logo-space{
+        display: flex;
+        justify-content: center;
+    }
+
+    .grid-photos{
+        display: grid;
+        grid-template-columns: 350px 350px ;
+        gap:20px;
+
+    }
+
+    .portfolio img{
+        width: 350px;
+    }
+
+    .portfolio{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+
+}
+
+
+
